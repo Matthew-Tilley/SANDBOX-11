@@ -1,4 +1,7 @@
 $(document).ready(function()
 {
-    console.log("LKAJDLKJASDL");
+    $("#BOOK").on("click", function()
+    {
+        $("body").css("background-color", "purple");
+    });
 });
