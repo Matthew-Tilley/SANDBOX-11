@@ -6,7 +6,7 @@ $(document).ready(function()
     $("#BOOK").on("click", function()
     {
         bookings++;
-        document.write(bookings);
+        document.getElementById("DISPLAY").innerHTML = bookings;
         
     });
 });
