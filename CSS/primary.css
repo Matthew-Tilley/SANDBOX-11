@@ -7,6 +7,10 @@
 
 #DISPLAY
 {
+    display:                flex;
+    justify-content:        center;
+    align-items:            center;
+    
     height:                 20vh;
     width:                  20vw;
     border:                 2px solid black;
